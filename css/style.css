@@ -540,10 +540,11 @@
 .payment-option-button a
  {
     padding: 15px;
-    width: 452px;
+   width: 100%;
     font-weight: 600;
 }
 .payment-option-button{
+    width:430px;
 margin:auto;
 text-align: center;
 }
