@@ -387,6 +387,16 @@
     .edit-cart-button button{
 
     }
+    .customize-content {
+        width:934px;
+        margin: auto;
+        text-align: center;
+    }
+    .main-box-content .card-footer  h3{
+        margin: auto !important;
+        text-align: left !important;
+
+    }
 }
 
 .border-warning{
@@ -441,12 +451,18 @@
 .top-margin{
     margin-top: 28px;;
 }
-.back-button-size button{
+.back-button-size a{
     border: 3px solid #191919;
     border-radius: 10px;
     margin-top:32px;
     margin-bottom: 50px;
-    width:45%
+    width:47%;
+}
+.back-button-size{
+    text-align:center;
+}
+.confirm-button{
+    border: 3px solid rgba(0, 128, 0, 0.13) !important;
 }
 .buttons-width .back-button-cart-size {
     border: 3px solid #191919;
