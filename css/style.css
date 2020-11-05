@@ -537,13 +537,15 @@
     text-align:center;
     margin-top:50px;
 }
-.payment-option-button a,
-.payment-option-button {
+.payment-option-button a
+ {
     padding: 15px;
     width: 452px;
-    margin:auto;
-    text-align: center;
     font-weight: 600;
+}
+.payment-option-button{
+margin:auto;
+text-align: center;
 }
 .qr-code{
     width:30px;
