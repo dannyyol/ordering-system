@@ -1,5 +1,12 @@
+body *{
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+}
 #wrapper-container {
     background-color: #FEBC0D;
+    padding-top: 50px;
 }
 
 .image-path {
@@ -134,13 +141,16 @@
 
     .ordering-item-1 {
         padding: 15px;
-
+        font-weight: 600;
     }
+    
 
     .ordering-item-2 {
         padding: 15px;
         margin: auto;
         text-align: right;
+        font-weight: 600;
+
     }
 
     .ordering-item-2 a {
@@ -151,6 +161,7 @@
     .footer-order-link {
         margin: auto;
         text-align: center;
+        
     }
 
     .fixed-footer-button a {
@@ -161,6 +172,8 @@
         width: 40%;
         padding:10px;
         font-size: 16px;
+         font-weight: 600;
+
     }
 
 }
@@ -205,8 +218,6 @@
         background-repeat: no-repeat;
         background-position: center top;
     }
-
-
 
     .ordering-item-1 {
         padding: 10px;
@@ -704,6 +715,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 2;
 
 }
 
@@ -744,3 +756,25 @@
     text-align: right !important;
 
 }
+
+.footer-top-1 {
+    padding-left: 33px !important;
+}
+
+.footer-top-2 {
+    margin: auto !important;
+    text-align: right !important;
+}
+
+   .footer-top-2,
+   .footer-top-1 {
+       font-weight: 600;
+       padding: 15px;
+   }
+
+   /* drag bar color */
+
+   .mCSB_dragger_bar,
+   .mCSB_draggerRail {
+       background-color: #fff !important;
+   }
